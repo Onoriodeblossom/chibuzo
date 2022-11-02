@@ -1,16 +1,16 @@
 import React from 'react';
 import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link,
-  useParams
+//   BrowserRouter as Router,
+//   Switch,
+//   Route,
+//   Link,
+//   useParams
 } from "react-router-dom";
 import './style.css';
 const Zuri=()=>{
     return(
         <div>
-             {/* <img src="BLESSED007.jpg" id="profile__img" alt>  */}
+             <img src="1.jpeg"  alt="yy"/> 
 
              <div class="profile-name">Friday Blessed</div>
               <a href="https://twitter.com/FridayBlessed13" class="links">Twitter Link</a>
