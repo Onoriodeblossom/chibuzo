@@ -6,11 +6,12 @@ import {
 //   Link,
 //   useParams
 } from "react-router-dom";
+import profile from "./2.jpeg"
 import './style.css';
 const Zuri=()=>{
     return(
         <div>
-             <img src="1.jpeg"  alt="yy"/> 
+             <img src={profile} alt="yy" id='profile__img'/> 
 
              <div class="profile-name">Friday Blessed</div>
               <a href="https://twitter.com/FridayBlessed13" class="links">Twitter Link</a>
